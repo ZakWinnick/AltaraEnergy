@@ -1392,4 +1392,9 @@ p {
     .investment-options {
         grid-template-columns: 1fr;
     }
+
+    /* Launching grid - stack on mobile */
+    .launching-grid {
+        grid-template-columns: 1fr !important;
+    }
 }

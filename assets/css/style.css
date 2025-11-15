@@ -1409,7 +1409,9 @@ p {
     }
 
     /* Benefits grid - stack on mobile */
-    .benefits-grid {
+    .benefits-grid,
+    .perfect-for-grid,
+    .partnership-steps-grid {
         grid-template-columns: 1fr !important;
     }
 }
@@ -1417,7 +1419,9 @@ p {
 /* Tablet breakpoint - 2 columns */
 @media (min-width: 769px) and (max-width: 1024px) {
     .launching-grid,
-    .benefits-grid {
+    .benefits-grid,
+    .perfect-for-grid,
+    .partnership-steps-grid {
         grid-template-columns: repeat(2, 1fr) !important;
     }
 }

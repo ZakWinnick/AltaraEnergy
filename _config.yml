@@ -4,14 +4,14 @@
 # Site settings
 title: Altara Energy
 description: "Premium EV charging network designed for scenic highway corridors and National Parks routes. Where charging becomes part of your journey."
-url: "https://altara.energy"
+url: "https://altaraenergy.com"
 baseurl: ""
 
 # Organization info
 organization:
   name: Altara Energy
   tagline: "Where charging becomes part of your journey"
-  email: hello@altara.energy
+  email: hello@altaraenergy.com
   phone: "(650) 420-6300"
   phone_raw: "6504206300"
   address:

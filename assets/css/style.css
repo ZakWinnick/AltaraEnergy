@@ -427,6 +427,10 @@ p {
     align-items: center;
 }
 
+.mobile-social-icons {
+    display: none;
+}
+
 .nav-link {
     color: var(--nav-text);
     text-decoration: none;
@@ -1182,15 +1186,25 @@ p {
         gap: 0.5rem;
     }
 
-    .social-icons {
-        gap: 0.5rem;
-        margin-right: 0;
+    /* Hide desktop social icons on mobile */
+    .nav-actions .social-icons {
+        display: none;
     }
 
-    .social-icon {
-        width: 36px;
-        height: 36px;
-        font-size: 1.2rem;
+    /* Show mobile social icons in the menu */
+    .mobile-social-icons {
+        display: flex;
+        gap: 1.5rem;
+        justify-content: center;
+        padding-top: 1.5rem;
+        margin-top: 1.5rem;
+        border-top: 1px solid var(--border-color);
+    }
+
+    .mobile-social-icons .social-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 1.3rem;
     }
 
     .nav-actions .btn-primary {

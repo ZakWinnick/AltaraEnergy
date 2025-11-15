@@ -64,6 +64,10 @@
     }
     </script>
 
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="{{ '/images/altara-logo-small.svg' | relative_url }}">
+    <link rel="apple-touch-icon" href="{{ '/images/logo-solo-trans.png' | relative_url }}">
+
     <!-- Fonts - Using system font stack for optimal performance -->
 
     <!-- Font Awesome -->
@@ -90,23 +94,11 @@
     <div class="container">
         <div class="nav-wrapper">
             <div class="logo">
-                <a href="{{ '/' | relative_url }}" style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
-                    <!-- Brand Logo - Full Color Version -->
-                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 34 34">
-                        <defs>
-                            <linearGradient id="navLogoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                                <stop offset="0%" stop-color="#0A4B6E"/>
-                                <stop offset="50%" stop-color="#FF6B4A"/>
-                                <stop offset="100%" stop-color="#0A4B6E"/>
-                            </linearGradient>
-                        </defs>
-                        <!-- Circular gradient orbit -->
-                        <circle cx="17" cy="17" r="16" fill="none" stroke="url(#navLogoGrad)" stroke-width="2" />
-                        <!-- Stylized mountain peak "A" -->
-                        <path d="M 17 8 L 24 20 L 20 20 L 20 24 L 14 24 L 14 20 L 10 20 Z" fill="#0A4B6E" />
-                    </svg>
-                    <!-- Brand Wordmark - System Font, Bold -->
-                    <span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 20px; font-weight: 600; letter-spacing: -0.5px; color: #0A4B6E;">Altara Energy</span>
+                <a href="{{ '/' | relative_url }}" style="display: flex; align-items: center; text-decoration: none;">
+                    <!-- Altara Energy Horizontal Logo -->
+                    <img src="{{ '/images/altara-logo-horizontal.svg' | relative_url }}"
+                         alt="Altara Energy"
+                         style="height: 36px; width: auto;" />
                 </a>
             </div>
             <div class="nav-menu" id="navMenu">

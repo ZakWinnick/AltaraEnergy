@@ -3,14 +3,16 @@
 
 # Site settings
 title: Altara Energy
-description: "Premium EV charging network designed for scenic highway corridors and National Parks routes. Where charging becomes part of your journey."
+description: "Fast, reliable urban EV charging powered by Rangeway Energy. Convenient city locations for your daily drive."
 url: "https://altaraenergy.com"
 baseurl: ""
 
 # Organization info
 organization:
   name: Altara Energy
-  tagline: "Where charging becomes part of your journey"
+  tagline: "Power up, move forward"
+  parent_company: "Rangeway Energy"
+  parent_url: "https://rangeway.energy"
   email: hello@altaraenergy.com
   phone: "(650) 420-6300"
   phone_raw: "6504206300"
@@ -30,30 +32,45 @@ social:
 # Page metadata
 pages:
   index:
-    title: "Altara Energy | Where charging becomes part of your journey"
-    description: "Premium EV charging designed for America's scenic highways. Climate-controlled indoor comfort at every location. Basecamp hubs and Waystation satellites across America's most beautiful routes."
-    keywords: "EV charging, electric vehicle charging, scenic route charging, National Parks EV charging, premium EV amenities, indoor EV charging"
-    og_image: "/images/hero-scenic-highway.jpg"
+    title: "Altara Energy | Fast, Reliable City EV Charging"
+    description: "Fast, reliable EV charging at convenient city locations. Powered by Rangeway Energy's operational excellence. Join our network today."
+    keywords: "city EV charging, DC fast charging, electric vehicle charging stations, EV charging network, fast charging near me"
+    og_image: "/images/hero-city-charging.jpg"
   about:
-    title: "About Us | Altara Energy - Premium Scenic Corridor Charging"
-    description: "America's first premium EV charging network designed for scenic highway corridors and National Parks routes. Learn about our mission and vision."
-    keywords: "Altara Energy, premium EV charging, scenic corridor charging, EV hospitality"
+    title: "About Altara Energy | Powered by Rangeway Energy"
+    description: "Altara Energy delivers convenient city EV charging backed by Rangeway Energy's operational excellence and 99%+ uptime commitment."
+    keywords: "Altara Energy, Rangeway Energy, city EV charging, reliable charging network"
     og_image: "/images/about-hero.jpg"
   locations:
-    title: "Our Locations | Altara Energy - Basecamps & Waystations"
-    description: "Explore our growing network of climate-controlled charging locations. Basecamp hubs with full amenities and automated Waystation satellites."
-    keywords: "Altara locations, premium charging stations, National Parks charging, scenic highway EV network"
-    og_image: "/images/locations-hero.jpg"
+    title: "Locations | Altara Energy Charging Stations"
+    description: "Find Altara Energy charging stations coming soon to San Francisco, Los Angeles, and San Diego. High-power DC fast charging."
+    keywords: "Altara locations, EV charging California, DC fast charging"
+    og_image: "/images/locations-map.jpg"
   membership:
-    title: "Pathfinder Rewards | Altara Energy Membership Program"
-    description: "Join Pathfinder Rewards for exclusive benefits, predictable pricing, and premium amenities. From Explorer (free) to Trailblazer tier."
-    keywords: "Pathfinder Rewards, EV membership, charging discounts, premium EV benefits"
-    og_image: "/images/membership-hero.jpg"
+    title: "Altara Network Membership | Flat-Rate EV Charging"
+    description: "Join Altara Network for flat-rate pricing with no time-of-use surprises. Free membership, transparent pricing, reliable charging."
+    keywords: "Altara membership, flat-rate charging, EV charging membership"
+    og_image: "/images/membership-card.jpg"
+  fleet:
+    title: "Fleet Solutions | Altara Energy for Commercial Drivers"
+    description: "Reliable EV charging for ride-share, delivery, and commercial fleets. Volume discounts and dedicated support."
+    keywords: "fleet EV charging, rideshare charging, commercial EV"
+    og_image: "/images/fleet-charging.jpg"
+  partners:
+    title: "Partner with Altara Energy | Host a Charging Station"
+    description: "Bring Altara Energy to your high-traffic location. Revenue share opportunities for site hosts."
+    keywords: "EV charging partnership, charging station host"
+    og_image: "/images/partner-site.jpg"
+  faq:
+    title: "FAQ | Altara Energy"
+    description: "Frequently asked questions about Altara Energy charging stations, membership, and services."
+    keywords: "Altara FAQ, EV charging questions"
+    og_image: "/images/altara-logo-standard.svg"
   contact:
-    title: "Contact Us | Altara Energy"
-    description: "Get in touch with Altara Energy. Whether you're an investor, partner, or EV traveler, we'd love to hear from you."
-    keywords: "contact Altara Energy, EV charging inquiries, investment opportunities"
-    og_image: "/images/contact-hero.jpg"
+    title: "Contact Altara Energy"
+    description: "Get in touch with Altara Energy for inquiries about charging stations, partnerships, or fleet solutions."
+    keywords: "contact Altara Energy, partnership opportunities"
+    og_image: "/images/contact.jpg"
 
 # Analytics
 analytics:

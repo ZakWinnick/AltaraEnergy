@@ -3,7 +3,7 @@
 
 # Site settings
 title: Altara Energy
-description: "Fast, reliable urban EV charging powered by Rangeway. Convenient city locations for your daily drive."
+description: "Fast, reliable city EV charging powered by Rangeway. Convenient locations for your daily drive."
 url: "https://altaraenergy.com"
 baseurl: ""
 
@@ -24,9 +24,9 @@ organization:
 
 # Social media
 social:
-  twitter: "https://x.com/altaraenergy"
-  instagram: "https://instagram.com/altaraenergy"
-  linkedin: "https://linkedin.com/company/altaraenergy"
+  twitter: "https://x.com/altaraev"
+  instagram: "https://instagram.com/altaraev"
+  linkedin: "https://linkedin.com/company/altaraev"
   youtube: ""
 
 # Page metadata

@@ -3,7 +3,7 @@
 
 # Site settings
 title: Altara Energy
-description: "Fast, reliable urban EV charging powered by Rangeway Energy. Convenient city locations for your daily drive."
+description: "Fast, reliable urban EV charging powered by Rangeway. Convenient city locations for your daily drive."
 url: "https://altaraenergy.com"
 baseurl: ""
 
@@ -11,8 +11,8 @@ baseurl: ""
 organization:
   name: Altara Energy
   tagline: "Power up, move forward"
-  parent_company: "Rangeway Energy"
-  parent_url: "https://rangeway.energy"
+  parent_company: "Rangeway"
+  parent_url: "https://rangewayev.com"
   email: hello@altaraenergy.com
   phone: "(650) 420-6300"
   phone_raw: "6504206300"
@@ -33,13 +33,13 @@ social:
 pages:
   index:
     title: "Altara Energy | Fast, Reliable City EV Charging"
-    description: "Fast, reliable EV charging at convenient city locations. Powered by Rangeway Energy's operational excellence. Join our network today."
+    description: "Fast, reliable EV charging at convenient city locations. Powered by Rangeway's operational excellence. Join our network today."
     keywords: "city EV charging, DC fast charging, electric vehicle charging stations, EV charging network, fast charging near me"
     og_image: "/images/hero-city-charging.jpg"
   about:
-    title: "About Altara Energy | Powered by Rangeway Energy"
-    description: "Altara Energy delivers convenient city EV charging backed by Rangeway Energy's operational excellence and 99%+ uptime commitment."
-    keywords: "Altara Energy, Rangeway Energy, city EV charging, reliable charging network"
+    title: "About Altara Energy | Powered by Rangeway"
+    description: "Altara Energy delivers convenient city EV charging backed by Rangeway's operational excellence and 99%+ uptime commitment."
+    keywords: "Altara Energy, Rangeway, city EV charging, reliable charging network"
     og_image: "/images/about-hero.jpg"
   locations:
     title: "Locations | Altara Energy Charging Stations"
